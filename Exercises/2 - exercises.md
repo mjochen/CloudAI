@@ -3,7 +3,7 @@
 
 Download the Titanic dataset from [Kaggle](https://www.kaggle.com/datasets/vinicius150987/titanic3).
 
-Open Sagemaker using free credits or run locally in a virtual environment.
+Open Sagemaker as a sandbox (at the bottom of your screen in the AWS-canvas-course) or run locally in a virtual environment.
 
 __If you haven’t started doing this yet, start it now: every project you do goes in its own personal virtual environment. Never in the main environment unless it uses no libraries. Git is useful but optional, virtual environments are not (optional, as it is very useful).__
 

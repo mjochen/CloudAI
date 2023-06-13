@@ -12,9 +12,13 @@
 5. Can we use AI to do feature engineering? Is it regularly done this way?
 6. Explain over- and underfitting in the context of multi-label classification.
 
-## The powerpoint
+
+## The powerpoint and exercises
 
 1. The powerpoint states: "The model should generalize to unseen data if you are using it to predict. If it’s just to explain the data overfitting isn’t a problem." Explain!
+1. To get rid of outliers, we simply look at the values and delete the row with the highest value for every column. Or is there a better way?
+1. Why does the Z-score doesn't matter in a column that is used in one hot encoding?
+1. What is scaling/normalization of data?
 
 
 
