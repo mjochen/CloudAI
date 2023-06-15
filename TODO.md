@@ -1,3 +1,4 @@
-- [ ] Ex/2.2 - titanic bekijken
+- [ ] Ex/2.3 - titanic bekijken
 - [ ] Ex/3.1 - wine quality scaling afwerken
 - [ ] Ex/3.4 - sample notebooks maken
+- [ ] Ex/2.2 - studentgrades afwerken
