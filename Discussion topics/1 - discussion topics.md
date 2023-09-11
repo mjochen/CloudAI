@@ -29,4 +29,5 @@ What if we wouldn’t forbid them, but simply gave them a very strong warning (u
 1. Let everyone in your group take a random personality test (Enneagram, Typefinder or MBTI, Big Five Assessment, Career Profiler, Workplace DISC Test, …). Compare these totally unrelated results.
 1. Generate a couple of random roles using https://www.randomlists.com/random-jobs (you can rerun as much as necessary). Assign all team members a role with description of tasks.
 1. The three of you start a company that specializes in data management. Think of a name. Write (or let some AI generate) a company introduction and mission statement.
+1. Use another AI-model to generate a company image, preferably something that is reflected in your company name.
 1. Create a markdown file with your company information, a professional picture of every one of you along with your job title and tasks. Upload this in your github as “README.md” and post the link to the repo in the team chat you made that included the instructor.

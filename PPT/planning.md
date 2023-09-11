@@ -9,3 +9,11 @@
 |5| AWS chapter 4 | Time series | Import and display time series data, applying model to example datasets |
 |6| | Computer vision and NLP (nice to know) | Apply prediction to final dataset |
 |7| | Final examination | Project upload, presentation, oral exam |
+
+
+Introduction, AI and ethics
+Data science recap
+Machine learning pipeline
+Time series
+Computer vision and NLP
+Final examination | Project upload, presentation, oral exam |
