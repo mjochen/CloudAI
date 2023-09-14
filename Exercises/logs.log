@@ -7052,3 +7052,84 @@ AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
 2023-09-14 10:46:23,005:INFO:Preloading libraries
 2023-09-14 10:46:23,007:INFO:Set up data.
 2023-09-14 10:46:23,014:INFO:Set up index.
+2023-09-14 10:47:26,836:INFO:Initializing predict_model()
+2023-09-14 10:47:26,836:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002152131CE80>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=1709, verbose=0, warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002152009B0A0>)
+2023-09-14 10:47:26,836:INFO:Checking exceptions
+2023-09-14 10:47:26,837:INFO:Preloading libraries
+2023-09-14 10:47:26,839:INFO:Set up data.
+2023-09-14 10:47:26,844:INFO:Set up index.
+2023-09-14 10:48:56,765:INFO:Initializing save_model()
+2023-09-14 10:48:56,765:INFO:save_model(model=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=1709, verbose=0, warm_start=False), model_name=files/heart_model, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\Jochen\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['age', 'trestbps', 'chol',
+                                             'thalach', 'oldpeak', 'slope',
+                                             'ca'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='de...
+                                                                         'data_type': dtype('float64'),
+                                                                         'mapping': 0.0    0
+1.0    1
+NaN   -1
+dtype: int64}],
+                                                               return_df=True,
+                                                               verbose=0))),
+                ('onehot_encoding',
+                 TransformerWrapper(exclude=None,
+                                    include=['cp', 'restecg', 'thal'],
+                                    transformer=OneHotEncoder(cols=['cp',
+                                                                    'restecg',
+                                                                    'thal'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-09-14 10:48:56,765:INFO:Adding model into prep_pipe
+2023-09-14 10:48:56,825:INFO:files/heart_model.pkl saved in current working directory
+2023-09-14 10:48:56,878:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['age', 'trestbps', 'chol',
+                                             'thalach', 'oldpeak', 'slope',
+                                             'ca'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 Trans...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        n_estimators=100, n_jobs=-1,
+                                        oob_score=False, random_state=1709,
+                                        verbose=0, warm_start=False))],
+         verbose=False)
+2023-09-14 10:48:56,879:INFO:save_model() successfully completed......................................
