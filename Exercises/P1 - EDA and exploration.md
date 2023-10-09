@@ -1,5 +1,7 @@
-# The project part 1
-## Data science, data exploration
+
+# The project step 1 - Data science, data exploration
+
+## Titanic
 
 The 'toy'-dataset is Titanic. It's the hello world of machine learning, so you'll find more examples of analyzing this data than you can process. You need to present a project on this dataset where you do an analysis on the titanic dataset, but explain everything you see.
 
@@ -21,3 +23,21 @@ Once you’ve loaded your data, go full data scientist on it:
 9.	Interpret the models' results using techniques like feature importance, partial dependence plots, or SHAP values to understand the factors that contribute to the models' predictions.
 
 These exercises focus more on the data science aspects of supervised machine learning, including data preprocessing, feature selection, cross-validation, hyperparameter optimization, and model interpretation.
+
+## Crop dataset.
+
+The 'difficult' dataset is a dataset about crops. You can find it in the zip-file called 'food-twentieth-century-crop-statistics-1900-2017-xlsx'. Besides the actual data it also contains a pdf-file describing what all the fields stand for.
+
+Take this week to start exploring this dataset. Remember the steps:
+
+- Import and clean your data (dates, categoricals, ...)
+- Draw a graph
+- Try to see a pattern or an interesting outlier
+- Draw another graph to confirm this suspicion
+- Try to see a pattern or an interesting outlier
+- Draw another graph to confirm this suspicion
+- Try to see a pattern or an interesting outlier
+- Draw another graph to confirm this suspicion
+- ...
+
+The final project will be partly graded on building a model based on this data, but also on the exploration of the data. Doing this step thorough will also greatly increase the quality of your model.
