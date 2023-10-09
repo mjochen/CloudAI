@@ -1491,6 +1491,7 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-10-09 10:38:42,867:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3], dtype='int64', is_relative=True),
                         initial_window=29238, step_length=3), n_jobs=-1
 <<<<<<< HEAD
+<<<<<<< HEAD
 2023-10-09 08:56:16,175:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2023-10-09 08:56:16,175:WARNING:
@@ -21311,6 +21312,8 @@ empty y passed to update_predict, no update was carried out
 
 
 =======
+=======
+>>>>>>> b8d9bc627889a7e236ec9ee3ba35f8d2f9a68542
 2023-10-09 10:52:20,042:ERROR:Fit failed on ForecastingPipeline(steps=[('forecaster',
                             TransformedTargetForecaster(steps=[('model',
                                                                 AutoARIMA(random_state=123,
@@ -21329,4 +21332,7 @@ empty y passed to update_predict, no update was carried out
                                                                           sp=24,
                                                                           suppress_warnings=True))]))])
 2023-10-09 11:00:59,229:ERROR:Unable to allocate 536. MiB for an array with shape (29239, 49, 49) and data type float64
+<<<<<<< HEAD
+>>>>>>> b8d9bc627889a7e236ec9ee3ba35f8d2f9a68542
+=======
 >>>>>>> b8d9bc627889a7e236ec9ee3ba35f8d2f9a68542
