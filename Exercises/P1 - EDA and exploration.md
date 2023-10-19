@@ -9,20 +9,28 @@ The first step in machine learning is data science. This week you'll be doing da
 
 Download the Titanic dataset from [Kaggle](https://www.kaggle.com/datasets/vinicius150987/titanic3).
 
-Open Sagemaker as a sandbox (at the bottom of your screen in the AWS-canvas-course) or run locally in a virtual environment.
+First import the data and clean it up:
 
-Once you’ve loaded your data, go full data scientist on it:
-1.	Perform data preprocessing, which includes handling missing values, converting categorical features to numerical, and feature scaling.
-2.	Use feature selection techniques to select the most important features for the models. Try using correlation analysis or feature importance from models like the decision tree or random forest.
-3.	Use cross-validation techniques such as k-fold cross-validation to evaluate the models' performance and avoid overfitting.
-4.	Use ensemble methods like stacking or blending to combine the predictions from multiple models and improve the overall performance.
-5.	Use hyperparameter optimization techniques such as Bayesian optimization or genetic algorithms to find the optimal hyperparameters for the models.
-6.	Use techniques like data augmentation or synthetic minority oversampling technique (SMOTE) to handle class imbalance in the target variable.
-7.	Use different evaluation metrics like ROC AUC or average precision score to evaluate the models' performance, especially when dealing with imbalanced datasets.
-8.	Visualize the models' performance using metrics like confusion matrix, ROC curve, or precision-recall curve to better understand the models' strengths and weaknesses.
-9.	Interpret the models' results using techniques like feature importance, partial dependence plots, or SHAP values to understand the factors that contribute to the models' predictions.
+* Rename columns to remove space from the name and make them all lowercase.
+* Look for the Na-values. Fix them if possible, using a couple of techniques before deciding which is best.
+* Look for the Outliers. Fix them if needed, using a couple of techniques before deciding which is best.
+* Look for (ordered) categoricals and label them as such.
 
-These exercises focus more on the data science aspects of supervised machine learning, including data preprocessing, feature selection, cross-validation, hyperparameter optimization, and model interpretation.
+Next do an exploratory data analysis:
+
+* Show the outliers and try to explain them.
+* Draw some graphs about features you find interesting.
+* Look for correlations in your data.
+
+Both phases (cleaning and exploring) aren't two different steps in a process, but rather one large fuzzy mess of code. Something like:
+
+* I'll give all the Na's the mean value.
+* My graphs look strange, what is this peak doing at the mean?
+* Is there a correlation between the value that has a lot of Na's and another column?
+* Let's use the other column to fill in the Na's!
+
+In the second step of this project you'll put all the really good code together to make one final import, but for now poke the data an see what happens.
+
 
 ## Crop dataset.
 
