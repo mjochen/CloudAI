@@ -3,4 +3,6 @@
 - [ ] Ex/3.4 - sample notebooks maken
 - [ ] Ex/2.2 - studentgrades afwerken
 - [ ] Ex/3... - veel extra oefeningen op gebruik van models (volledige les?!?)
-- [ ] https://pycaret.org/
+- [v] https://pycaret.org/
+- [ ] passive agressive regression -> good for seasonal data, in notebooks group 1
+- [ ] energie, wanneer poetin oekraïne wilde binnenvallen
