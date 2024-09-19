@@ -1,5 +1,5 @@
-venv*
-temp
-Old
+/venv*
+/temp
+/Old
 TODO.md
 *.pkl
