@@ -2,7 +2,6 @@
 
 ## The powerpoint and exercises
 
-
 1. How do you determine if a model is good? What metrics and methods can you use to evaluate its performance?
 1. Why is it important for a model to generalize to unseen data? What are the risks of a model that doesn't generalize well?
 1. Why do we split the dataset into training and test sets? How does this help in evaluating the model's performance?
