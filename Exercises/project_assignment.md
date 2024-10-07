@@ -97,7 +97,7 @@ This has to be done for all three datasets.
 
 The previous part ended with a single notebook (per dataset) that would prepare your data for predicting. Next is building a couple of models and actually predicting something.
 
-For both Titanic and the crop-dataset you need at least a model using **AWS** and another model that **PyCaret** suggested. Thirdly you'll also need a model that you manually implemented, along with the reason you choose this exact model.
+For both Titanic and the housing-dataset you need at least a model using **AWS** and another model that **PyCaret** suggested. Thirdly you'll also need a model that you manually implemented, along with the reason you choose this exact model.
 
 When the models are done, gather the metrics that describe these models. Export them (CSV, Pickle, ...) and put them together in a single notebook. There you can do a deep analysis on which of the models performed better.
 
