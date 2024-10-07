@@ -27,7 +27,6 @@ $${\color{red}Thursday \space 28 \space November \space 2024}$$
 The following is roughly ordered chronologically, but some steps may be executed concurrently (like scraping the stocks and cleaning titanic). The first step (prepare) should be finished by the first week but for the others parts you get to decide [your time-line all by yourself](https://www.timeanddate.com/countdown/boxing?iso=20241128T11&p0=337&msg=Deadline+for+the+Cloud+AI+project&ud=1&font=cursive).
 
 
-
 # Prepare
 
 * Choose a cool name for your group. Something you can identify with.
