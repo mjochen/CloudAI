@@ -27,7 +27,6 @@ $${\color{red}Thursday \space 28 \space November \space 2024}$$
 The following is roughly ordered chronologically, but some steps may be executed concurrently (like scraping the stocks and cleaning titanic). The first step (prepare) should be finished by the first week but for the others parts you get to decide [your time-line all by yourself](https://www.timeanddate.com/countdown/boxing?iso=20241128T11&p0=337&msg=Deadline+for+the+Cloud+AI+project&ud=1&font=cursive).
 
 
-
 # Prepare
 
 * Choose a cool name for your group. Something you can identify with.
@@ -97,7 +96,7 @@ This has to be done for all three datasets.
 
 The previous part ended with a single notebook (per dataset) that would prepare your data for predicting. Next is building a couple of models and actually predicting something.
 
-For both Titanic and the housing-dataset you need at least a model using **AWS** and another model that **PyCaret** suggested. Thirdly you'll also need a model that you manually implemented, along with the reason you choose this exact model.
+For both Titanic and the crop-dataset you need at least a model using **AWS** and another model that **PyCaret** suggested. Thirdly you'll also need a model that you manually implemented, along with the reason you choose this exact model.
 
 When the models are done, gather the metrics that describe these models. Export them (CSV, Pickle, ...) and put them together in a single notebook. There you can do a deep analysis on which of the models performed better.
 
