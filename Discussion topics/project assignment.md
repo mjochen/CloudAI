@@ -137,8 +137,8 @@ Finally your presentation. You'll have 25 minutes per team, but that is includin
 
 * (Questions on your models will be asked during the previous presentation.)
 * Questions on the code present in the notebooks that you have worked on.
-* Each student will give a random number. Based on this number you'll get one of the discussion topics as an oral question and you should immediately answer them. If you're stuck a teammate can help out.
-* If you really don't know the answer you can get another question.
+* Questions on topics related to what you did in the notebooks.
+    * Possible: You've used XGBoost. This is a tree-based model. What others are there?
 
 The presentations will be held during classes on 28 November. An exact timing will be shared on canvas. Only the presenting group is present during the presentations. (When you don't have presentation you don't have to be at school.)
 
