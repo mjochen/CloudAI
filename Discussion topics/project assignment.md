@@ -112,6 +112,8 @@ In a company you'd have the webdepartment responsible for the front- and backend
 
 You'll need to host this code somewhere. The frontend normally won't be a problem but the backend may prove to be trickier. You can host it at home on a raspberry Pi or a virtual machine and you don't need a fancy URI. What you do need is a working model of a setup that would bring this ML-model out of the PC of the developer and into the hands of the general public.
 
+Tip: look into Oracle. They have a pretty decent free tier.
+
 # Upload and presentation
 
 ## Upload
