@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pickle
 
 # import the files, only needed for ranges in sliders
-df = pd.read_excel('files/titanic3.xlsx', engine='openpyxl')
+df = pd.read_excel('../files/titanic3.xlsx', engine='openpyxl')
 
 
 def calculate_survival():
@@ -21,7 +21,7 @@ def calculate_survival():
 
     random_person = pd.DataFrame(random_person_dict, index=[0])
     
-    with open('files/titanic_model.pkl', 'rb') as file: 
+    with open('../files/titanic_model.pkl', 'rb') as file: 
         model = pickle.load(file) 
 
     return model.predict(random_person)[0]

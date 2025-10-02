@@ -4,12 +4,12 @@ import matplotlib.pyplot as plt
 import pickle
 
 # import the files, only needed for ranges in sliders
-mpg = pd.read_csv('files/mpg.csv', index_col=0)
+mpg = pd.read_csv('../files/mpg.csv', index_col=0)
 
 
 def calculate_hwy():
     new_car = pd.DataFrame(data = [[displ_slider, year_slider, cyl_dropdown]], columns = ['displ', 'year', 'cyl'])
-    with open('files/mpg_model.pkl', 'rb') as file: 
+    with open('../files/mpg_model.pkl', 'rb') as file: 
         model_3 = pickle.load(file) 
 
     return round(model_3.predict(new_car)[0],4)
@@ -46,4 +46,4 @@ if ok_button:
     st.markdown(f"**Your car will do an average of {hwy} miles per gallon on the highway.**")
 
 # Run using
-# streamlit run '.\4.3 - MPG app.py'
+# streamlit run '.\3 - MPG app.py'
