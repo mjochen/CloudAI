@@ -13,13 +13,13 @@
         * Dive deeper into pandas, but more on data than section 3
     * Section 5:
         * Need to know
-    Section 6:
+    * Section 6:
         * Need to know, but short
-    Section 7:
+    * Section 7:
         * Need to know
         * Confusion matrix and ROC-curves
         * A difficult section, take your time for it
-    Section 8:
+    * Section 8:
         * Nice to know, hyper parameter tuning only works if you know what you are tuning
         * You can’t make a car go faster by randomly screwing and unscrewing bolts in your engine
         * It’s not something you will learn in 7 slides
