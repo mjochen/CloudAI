@@ -1,1 +1,0 @@
-# Discussion topics week 3

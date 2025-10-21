@@ -1,4 +1,4 @@
-# Discussion topics week 1
+# Discussion topics chapter 1 and 2
 
 ## General statistics:
 1. The chances of somebody dying on their birthday are 13% higher than on any other day. Is this possible? Explain.
@@ -33,3 +33,4 @@ What if we wouldn’t forbid them, but simply gave them a very strong warning (u
 1. What are the differences between linear and polynomial regression? When might you choose one over the other?
 1. Why is RMSE a preferred metric for evaluating regression models? What are its advantages and disadvantages compared to other metrics?
 1. What can residuals tell us about the performance of a model? How can you use residuals to improve your model?
+
