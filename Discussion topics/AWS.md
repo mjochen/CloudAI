@@ -1,7 +1,7 @@
 # When to do which AWS chapter?
 
-* Week 1: Chapter 1 and 2 (introductions)
-* Week 2: Chapter 3
+* Lesson 1: Chapter 1 and 2 (introductions)
+* Lesson 2: Chapter 3
     * Section 1: Nice to know
     * Section 2: Nice to know, but try to keep track of all the AWS-lingo
     * Section 3:
@@ -24,7 +24,7 @@
         * You can’t make a car go faster by randomly screwing and unscrewing bolts in your engine
         * It’s not something you will learn in 7 slides
         * We will be covering this later
-* Week 4: Chapter 4
+* Lesson 4: Chapter 4
     * Section 1: Nice to know
     * Section 2: Need to know
     * Section 3:
