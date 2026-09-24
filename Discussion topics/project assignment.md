@@ -157,10 +157,13 @@ Extensions can include (but are not limited to):
 
 * EDA that tells an actual story, rather than just presenting a collection of graphs
 * Training additional models
+* Not using PyCaret but replacing it with another AutoML
+* **Applying unsupervised learning and explaining what it helped you see about your data**
 * Tuning models and improving their performance
 * More advanced feature engineering
 * More thorough model comparison and error analysis
-* Hosting the model in a different language than the one it was trained in
+* Hosting the model using an API and a webpage (not using streamlit)
+* Writing this API in a different language than the one it was trained in
 * A more advanced or automated deployment pipeline
 * ...
 

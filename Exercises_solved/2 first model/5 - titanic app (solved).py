@@ -56,4 +56,6 @@ if ok_button:
         st.markdown(f"**You would have survived the Titanic.**")
     else:
         st.markdown(f"**You would have died on the Titanic.**")
+
+# streamlit run '.\5 - titanic app (solved).py'
     

@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # import files
-df = pd.read_excel('files/titanic3.xlsx', engine='openpyxl')
+df = pd.read_excel('../files/titanic3.xlsx', engine='openpyxl')
 
 # range slide to get the range of ages
 values = st.slider(
@@ -39,5 +39,5 @@ ax.set_ylabel('Age')
 st.pyplot(fig)
 
 # run by typing...
-# streamlit run '.\3.3 - First streamlit.py'
+# streamlit run '.\3 - First streamlit.py'
 # in the terminal
