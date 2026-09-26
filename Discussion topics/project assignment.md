@@ -8,13 +8,22 @@ We'll be investigating two different datasets. This the theme is "Going green."
 
 ## Dataset 1: Secondary Mushroom
 
-[Download from UCI](https://archive.ics.uci.edu/dataset/848/secondary+mushroom+dataset)
+**Note! Do not use the UCI-version of the dataset, but use [this file](mushroom_project_dataset.csv) (in this folder) in stead!**
+
+~~[Download from UCI](https://archive.ics.uci.edu/dataset/848/secondary+mushroom+dataset)~~
 
 This dataset includes 61.069 hypothetical mushrooms based on 173 species (353 mushrooms
 per species). Each mushroom is identified as definitely edible, definitely poisonous, or of
 unknown edibility and not recommended (the latter class was combined with the poisonous class).
 
 The dataset isn't huge, so make sure to use each row optimally. It's also quite obvious what should be predicted (although you can diverge from the beaten path, but talk this trough first). It does, however, lend itself very nicely to a clean inference-interface.
+
+You can still refer to the information on the UCI-page, but that dataset is very deterministic. That means training models on it is trivially easy. To counter this a more noisy dataset has been created that will allow you to dig deeper into your toolchest of ML-optimalizations. The new dataset is based on the original dataset, but is...
+- Missing values
+- Less features
+- Less rows
+- May or may not have had some class-labels flipped
+
 
 ## Dataset 2: NYC Citi Bike System Data
 
